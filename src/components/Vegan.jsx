@@ -24,7 +24,6 @@ function Vegan() {
           const data = await api.json();
 
           localStorage.setItem('vegan', JSON.stringify(data.recipes));
-          console.log(data);
           setVegan(data.recipes);
       }
 

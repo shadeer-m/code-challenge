@@ -22,7 +22,6 @@ function Recipe() {
 
     useEffect(() => {
         fetchRecipe();
-        console.log(details);
     }, [params.name]);
 
   return (
